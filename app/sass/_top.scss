@@ -1,0 +1,32 @@
+.top {
+  background-color: $white;
+  &-form {
+    position: relative;
+  }
+  &-form-search {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px 40px 15px 15px;
+    font-family: "Raleway", sans-serif;
+  }
+  &-form-button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 24px;
+    right:0;
+  }
+  &-account {
+    padding: 20px;
+    text-align: right;
+  }
+}
+.account-item {
+  display: inline-block;
+}
+.account-item + .account-item {
+  margin-left: 15px;
+}
